@@ -1,5 +1,4 @@
 import { createI18n } from 'vue-i18n';
-
 type csvRows = { key: string; enValue: string; frValue: string }[];
 interface LocaleMessages {
     [key: string]: { [name: string]: string };
@@ -31,6 +30,7 @@ const i18n = createI18n({
     locale: lang || undefined,
     fallbackLocale: 'en',
     globalInjection: true,
+    // @ts-ignore
     messages: fold(rows)
 });
 
