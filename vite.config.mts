@@ -27,15 +27,15 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                app: '/index-en.html',
-                main: '/index-en.html',
-                en: '/index-en.html',
+                app: '/index.html',
+                main: '/index.html',
+                en: '/index.html',
                 fr: '/index-fr.html'
             }
         },
         target: 'esnext'
     },
     server: {
-        open: '/index-en.html'
+        open: '/index.html'
     }
 });
