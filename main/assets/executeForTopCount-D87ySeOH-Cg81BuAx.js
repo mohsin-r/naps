@@ -1,0 +1,1 @@
+import{jE as e,kM as n}from"./main-KOPTRisL.js";import{b as c}from"./queryTopFeatures-Cam5OLhi-D8COPrCk.js";async function u(o,r,t){const a=e(o);return(await c(a,n.from(r),{...t})).data.count}export{u as executeForTopCount};
