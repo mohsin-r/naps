@@ -1,1 +1,0 @@
-import{jE as e,kM as s}from"./main-KOPTRisL.js";import{S as n}from"./queryTopFeatures-Cam5OLhi-D8COPrCk.js";async function f(o,r,t){const a=e(o);return(await n(a,s.from(r),{...t})).data.objectIds}export{f as executeForTopIds};

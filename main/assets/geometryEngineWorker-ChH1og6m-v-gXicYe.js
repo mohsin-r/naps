@@ -1,1 +1,0 @@
-import{O as r}from"./geometryEngineJSON-cnFh4oQ2-BDYn0XBF.js";import"./geometryEngineBase-DDJcGEx2-DWcGFs-U.js";import"./main-KOPTRisL.js";function a(o){return(0,r[o.operation])(...o.parameters)}export{a as executeGEOperation};
