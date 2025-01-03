@@ -95,7 +95,7 @@
                 "legend": {
                     "root": {
                         "name": "I'm root",
-                        "children": []
+                        "children": [{ "layerId": "Active_Sites" }]
                     },
                     "headerControls": ["groupToggle", "visibilityToggle"]
                 },
@@ -111,7 +111,15 @@
                     "items": ["legend", "geosearch", "basemap", "export", "help"]
                 }
             },
-            "layers": [],
+            "layers": [
+                {
+                    "id": "Active_Sites",
+                    "name": "Active Sites",
+                    "url": "https://section917.canadacentral.cloudapp.azure.com/arcgis/rest/services/WebMappingTesting/NAPS_ActiveSiteReport/MapServer/0",
+                    "layerType": "esri-feature"
+                }
+            ],
+            "panels": { "open": [{ "id": "legend", "pin": true }] },
             "map": {
                 "initialBasemapId": "baseEsriWorld",
                 "caption": {
@@ -613,7 +621,7 @@
                 "legend": {
                     "root": {
                         "name": "I'm root",
-                        "children": []
+                        "children": [{ "layerId": "Active_Sites" }]
                     },
                     "headerControls": ["groupToggle", "visibilityToggle"]
                 },
@@ -629,7 +637,15 @@
                     "items": ["legend", "geosearch", "basemap", "export", "help"]
                 }
             },
-            "layers": [],
+            "layers": [
+                {
+                    "id": "Active_Sites",
+                    "name": "Active Sites",
+                    "url": "https://section917.canadacentral.cloudapp.azure.com/arcgis/rest/services/WebMappingTesting/NAPS_ActiveSiteReport/MapServer/0",
+                    "layerType": "esri-feature"
+                }
+            ],
+            "panels": { "open": [{ "id": "legend", "pin": true }] },
             "map": {
                 "initialBasemapId": "baseEsriWorld",
                 "caption": {

@@ -2,7 +2,7 @@
     <div ref="el">
         <button
             type="button"
-            class="text-black dropdown-button hover:bg-white border w-full"
+            class="text-black block h-full dropdown-button hover:bg-white border w-full"
             :class="{
                 'thick-left-border': open && !props.position.includes('end'),
                 'thick-right-border': open && props.position.includes('end'),

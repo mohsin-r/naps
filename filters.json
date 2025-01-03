@@ -1,0 +1,170 @@
+[
+    {
+        "variable": "Dataset",
+        "placement": "left",
+        "groups": [
+            {
+                "title": "Continuous",
+                "options": [
+                    {
+                        "title": "Dataset 1",
+                        "description": "This dataset speaks volumes about pollution."
+                    },
+                    { "title": "Dataset 2 (no description)" },
+                    { "title": "Dataset 3", "description": "More information about dataset 3." }
+                ]
+            },
+            {
+                "title": "Integrated",
+                "options": [
+                    {
+                        "title": "Dataset 4",
+                        "description": "This is an integrated dataset that says different stuff about pollution. Very very long description. Very very long description. Very very long description. Very very long description."
+                    },
+                    {
+                        "title": "Dataset 5",
+                        "description": "More information about dataset 5."
+                    },
+                    { "title": "Dataset 6 (no description)" }
+                ]
+            }
+        ],
+        "selected": [1, 1]
+    },
+    {
+        "variable": "Active Site(s)",
+        "placement": "left",
+        "groups": [
+            {
+                "options": [
+                    {
+                        "title": "Alberta",
+                        "value": "ALBERTA (55)"
+                    },
+                    {
+                        "title": "British Columbia",
+                        "value": "BRITISH COLUMBIA (58)"
+                    },
+                    {
+                        "title": "Capmon",
+                        "value": "CAPMoN (46)"
+                    },
+                    {
+                        "title": "Manitoba",
+                        "value": "MANITOBA (54)"
+                    },
+                    {
+                        "title": "Metro Vancouver",
+                        "value": "METRO VANCOUVER (57)"
+                    },
+                    {
+                        "title": "New Brunswick",
+                        "value": "NEW BRUNSWICK (47)"
+                    },
+                    {
+                        "title": "New Foundland & Labrador",
+                        "value": "NEWFOUNDLAND AND LABRADOR (95)"
+                    },
+                    {
+                        "title": "Nova Scotia",
+                        "value": "NOVA SCOTIA (45)"
+                    },
+                    {
+                        "title": "Ontario",
+                        "value": "ONTARIO (53)"
+                    },
+                    {
+                        "title": "Prince Edward Island",
+                        "value": "PRINCE EDWARD ISLAND (96)"
+                    },
+                    {
+                        "title": "Quebec",
+                        "value": "QUEBEC (49)"
+                    },
+                    {
+                        "title": "Saskatchewan",
+                        "value": "SASKATCHEWAN (50)"
+                    },
+                    {
+                        "title": "Ville de Montréal",
+                        "value": "VILLE DE MONTRÉAL ()"
+                    },
+                    {
+                        "title": "Yukon",
+                        "value": "YUKON (94)"
+                    }
+                ]
+            }
+        ],
+        "selected": [
+            [0, 0],
+            [0, 1],
+            [0, 2],
+            [0, 3],
+            [0, 4],
+            [0, 5],
+            [0, 6],
+            [0, 7],
+            [0, 8],
+            [0, 9],
+            [0, 10],
+            [0, 11],
+            [0, 12],
+            [0, 13]
+        ],
+        "multi": true
+    },
+    {
+        "variable": "Pollutant",
+        "placement": "left",
+        "groups": [
+            {
+                "options": [
+                    {
+                        "title": "Carbon Monoxide (CO)"
+                    },
+                    { "title": "Nitrogen Dioxide (NO2)" },
+                    { "title": "Nitric Oxide (NO)" },
+                    { "title": "Nitric Oxides (NOX)" },
+                    { "title": "Ozone (O3)" },
+                    { "title": "Sulphur Dioxide (SO2)" }
+                ]
+            }
+        ],
+        "selected": [
+            [0, 2],
+            [0, 3]
+        ],
+        "multi": true
+    },
+    {
+        "variable": "Time of year",
+        "placement": "right",
+        "groups": [
+            {
+                "title": "Annual",
+                "options": [{ "title": "Annual", "description": "Jan-Dec" }]
+            },
+            {
+                "title": "Seasonal",
+                "options": [
+                    { "title": "Winter", "description": "Dec-Feb" },
+                    { "title": "Spring", "description": "Mar-May" },
+                    { "title": "Summer", "description": "Jun-Aug" },
+                    { "title": "Autumn", "description": "Sep-Nov" }
+                ]
+            }
+        ],
+        "selected": [1, 1]
+    },
+    {
+        "variable": "Unit of Measurement",
+        "placement": "right",
+        "groups": [
+            {
+                "options": [{ "title": "Parts per billion" }, { "title": "Micrograms per cubic meter" }]
+            }
+        ],
+        "selected": [0, 0]
+    }
+]
