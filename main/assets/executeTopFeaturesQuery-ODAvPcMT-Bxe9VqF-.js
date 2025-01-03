@@ -1,1 +1,0 @@
-import{jE as u,kM as f,ki as i}from"./main-BJW1_IOd.js";import{g as n}from"./queryTopFeatures-Cam5OLhi-BRbf5hOW.js";async function d(r,a,e,o){const t=u(r),s={...o},{data:m}=await n(t,f.from(a),e,s);return i.fromJSON(m)}export{d as executeTopFeaturesQuery};

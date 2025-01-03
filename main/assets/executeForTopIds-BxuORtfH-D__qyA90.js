@@ -1,1 +1,0 @@
-import{jE as e,kM as s}from"./main-BJW1_IOd.js";import{S as n}from"./queryTopFeatures-Cam5OLhi-BRbf5hOW.js";async function f(o,r,t){const a=e(o);return(await n(a,s.from(r),{...t})).data.objectIds}export{f as executeForTopIds};

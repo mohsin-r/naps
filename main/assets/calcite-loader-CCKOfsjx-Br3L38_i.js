@@ -1,0 +1,1 @@
+import{f as o,v as t}from"./loader-HhR8XX0c-Dc3U6OVr.js";import"./main-C9wvg2yZ.js";import"./guid-Dls486Er-CBh637k4.js";import"./locale-Dj-q8Iw4-DxNxkwnw.js";import"./dom-N58V0tYi-DBU3jlah.js";import"./key-CZySMiwx-kmS7VeUz.js";import"./observers-tBXut0i3-BOc9E__G.js";const f=o,n=t;export{f as CalciteLoader,n as defineCustomElement};
